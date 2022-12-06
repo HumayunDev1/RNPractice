@@ -1,0 +1,45 @@
+export const VEGETABLES = [
+  {
+    id: 1,
+    title: 'Avocado, Ready to eat, 1pc - Mexico',
+    price: 'SAR 9.25',
+    imageUrl: require('../Pictures/avocado.png'),
+    sale: false,
+  },
+  {
+    id: 2,
+    title: 'Avocado 2pc - Mexico',
+    price: 'SAR 9.25',
+    imageUrl: require('../Pictures/2avocados.png'),
+    sale: false,
+  },
+  {
+    id: 3,
+    title: 'Broccoli, 500g - Georgia',
+    price: 'SAR 9.25',
+    imageUrl: require('../Pictures/broccoli.png'),
+    sale: false,
+  },
+  {
+    id: 4,
+    title: 'Batat, sweet potato - 1kg, Brazil',
+    price: 'SAR 9.25',
+    imageUrl: require('../Pictures/sweetpotato.png'),
+    sale: false,
+  },
+  {
+    id: 5,
+    title: 'Potato - 1kg, Ukraine',
+    price: 'SAR 9.25',
+    imageUrl: require('../Pictures/potato.png'),
+    sale: true,
+    price2: 'SAR 10.50',
+  },
+  {
+    id: 6,
+    title: 'Corn, sweet - 5pc, Netherlands',
+    price: 'SAR 9.25',
+    imageUrl: require('../Pictures/corn.png'),
+    sale: false,
+  },
+];
